@@ -4,8 +4,6 @@ Ext.define('Aumnia.analytics.Abstract', {
         accountId: null
     },
 
-    updateAccountId: Ext.emptyFn,
-
     trackEvent: Ext.emptyFn,
 
     trackPageView: Ext.emptyFn

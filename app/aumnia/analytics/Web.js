@@ -7,7 +7,7 @@ Ext.define('Aumnia.analytics.Web', {
         // </debug>
         if (newID && window.ga) {
             // <debug>
-            console.log("Web.updateAccountId: newId, window.ga", newID, window.ga);
+            console.log("Web.updateAccountId: newId=", newID);
             // </debug>
 
             window.ga(function () {
